@@ -1,0 +1,233 @@
+$mainColor: #444440;
+$bubbleColor: #a6a6a6;
+$secondaryBackground: #eeeeee;
+
+ body {
+    width: 8.5in;
+    height: 11in;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Montserrat', 'Open Sans', sans-serif;
+    padding: 12px;
+    color: $mainColor;
+ }
+
+ h2 {
+     font-family: 'Open Sans', sans-serif;
+     font-size: 18px;
+     font-weight: bold;
+
+     margin-top: 20px;
+     margin-bottom: 8px;
+ }
+
+ h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+
+    margin-top: 8px;
+    margin-bottom: 4px;
+ }
+
+ h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+
+    margin-top: 0px;
+    margin-bottom: 4px;
+ }
+
+ h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+
+    margin-top: 0px;
+    margin-bottom: 2px;
+ }
+
+ ul {
+    list-style-position: outside;
+    padding-inline-start: 20px;
+    margin: unset;
+
+    font-size: 14px;
+  }
+
+ li {
+    margin-bottom: 2px;
+}
+ a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ .info {
+     width: 32%;
+     padding: 16px;
+     background-color: $secondaryBackground;
+ }
+
+ .name{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 44px;
+   
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    &_break{
+       border-style: solid;
+       border-width: 2px;
+       border-radius: 1px;
+       margin-bottom: 40px;
+    }
+}
+
+ .skills {
+     display: flex;
+     flex-direction: column;
+
+     &_break {
+       width: 100%;
+       border: 0.4px solid $bubbleColor;
+       margin: 6px 0px;
+     }
+
+     &_section {
+         font-size: 14px;
+        
+         display: flex;
+         flex-direction: row;
+         flex-wrap: wrap;
+         justify-content: flex-start;
+     }
+
+     &_bubble {
+        padding: 2px 4px;
+        border: 0.5px solid $bubbleColor;
+        border-radius: 6px;
+        margin: 2px 4px;
+     }
+ }
+
+ .availability {
+     display: flex;
+     flex-direction: column;
+ }
+
+ .contact {
+    display: flex;
+    flex-direction: column;
+
+    &_info {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        margin-bottom: 20px;
+        font-size: 14px;
+
+        &_labels {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+
+            font-weight: 500;
+        }
+
+        &_details {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        &_item {
+            margin-bottom: 2px;
+        }
+    }
+
+    &_externalLinks {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        
+        font-size: 14px;
+
+        &_group {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        &_link {
+            padding-left: 8px;
+        }
+    }
+ }
+
+ .details{
+     width: 68%;
+     padding: 20px;
+ }
+
+ .experience {
+     display: flex;
+     flex-direction: column;
+
+     &_info {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 8px;
+     }
+
+    &_workInfo {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    &_skills {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 4px;
+
+        &_list {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 13px;
+            font-weight: normal;
+            padding-left: 8px;
+        }
+    }
+ }
+
+ .projects {
+    display: flex;
+    flex-direction: column;
+    
+    &_info {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 8px;
+     }
+ }
+
+ .education {
+    display: flex;
+    flex-direction: column;
+    
+    &_info {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-bottom: 8px;
+     }
+ }
