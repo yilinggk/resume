@@ -117,6 +117,38 @@ $secondaryBackground: #eeeeee;
      }
  }
 
+ .education {
+    display: flex;
+    flex-direction: column;
+    
+    &_title {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 14px;
+        padding-bottom: 8px;
+    }
+
+    &_info {
+        font-family: 'Montserrat', sans-serif;
+
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 8px;
+
+        &_school {
+            font-weight: 600;
+            font-size: 13px;
+            font-style: italic;
+        }
+
+        &_year {
+            font-weight: 500;
+            font-size: 13px;
+            font-style: italic;
+        }
+     }
+ }
+
  .availability {
      display: flex;
      flex-direction: column;
@@ -177,6 +209,7 @@ $secondaryBackground: #eeeeee;
  .details{
      width: 68%;
      padding: 20px;
+     margin-top: 20px;
  }
 
  .experience {
@@ -216,18 +249,6 @@ $secondaryBackground: #eeeeee;
     &_info {
         display: flex;
         flex-direction: column;
-        padding-bottom: 8px;
-     }
- }
-
- .education {
-    display: flex;
-    flex-direction: column;
-    
-    &_info {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
         padding-bottom: 8px;
      }
  }

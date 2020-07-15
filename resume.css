@@ -135,6 +135,47 @@ a {
   margin: 2px 4px;
 }
 
+.education {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.education_title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  padding-bottom: 8px;
+}
+
+.education_info {
+  font-family: 'Montserrat', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 8px;
+}
+
+.education_info_school {
+  font-weight: 600;
+  font-size: 13px;
+  font-style: italic;
+}
+
+.education_info_year {
+  font-weight: 500;
+  font-size: 13px;
+  font-style: italic;
+}
+
 .availability {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -241,6 +282,7 @@ a {
 .details {
   width: 68%;
   padding: 20px;
+  margin-top: 20px;
 }
 
 .experience {
@@ -313,30 +355,6 @@ a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding-bottom: 8px;
-}
-
-.education {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.education_info {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   padding-bottom: 8px;
 }
 /*# sourceMappingURL=resume.css.map */
